@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;
+  background-color: ghostwhite;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: ghostwhite;
+  color:black ;
+  text-align: center;
+  font-size: 3rem;
+  padding: 12%;
+}
+
+ img, .lan{
+ margin: 12px;
+ display:flex;
+ flex-wrap: wrap;
+ flex-flow: row wrap;
+ 
+}
+
+.links a , .last a{
+     font-size: 1.5rem;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+    margin: 8px;
+    text-decoration: none;
+  }
+
+.links a:hover{
+ color: blue;
+}
+
+.last a:hover{
+  color: rgb(76, 141, 10);
+}
+ header p{
+  font-size: 1.5rem;  
+}
+section {
+  margin: 0 auto;
+  max-width: 80%;
+    font-display:inherit;
+    font-size: 1.2rem  ;
+    padding: 10px;
+  
+    
+}
+.nav{
+  background-color: black;
+  color: aliceblue;
+  padding: 8%;
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+
+}
+ul a{
+color: rgb(16, 98, 206);
+}
+ul a:visited{
+  color: cadetblue;
+}
+
+
+
