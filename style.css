@@ -64,6 +64,42 @@ color: rgb(16, 98, 206);
 ul a:visited{
   color: cadetblue;
 }
+/* animation in header flow */
+
+ #flow{
+  color: rgb(18, 45, 194);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  animation: head 4s;
+}
+@keyframes head {
+ 
+  0% {content: "Developer";}
+
+  50% { content: "Programmar"; }
+
+  100% { content: "Content Writer";}
+ 
+}
+
+#flow::after{
+  content:" " ;
+  animation: spin 5s linear;
+  animation-iteration-count: infinite;
+
+}
+@keyframes spin {
+
+   0% {content: "Developer";}
+
+  33% { content: "Programmar"; }
+
+  66% { content: "Content Writer";}
+  100%{ content: "Over Thinker XD"}
+}
+
+
+
+
 
 
 
